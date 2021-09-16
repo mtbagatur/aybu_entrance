@@ -26,10 +26,7 @@ public class Driver {
 		int n = 0;
 		int lastValue = 0;
 		
-		//for (int i = evenList.size() - 1; i >= 0; i--) {
 		for (int i = 0; i < evenList.size(); i++) {
-			
-			//System.out.print(evenList.get(i));
 			
 			int add_digit = (int) (evenList.get(i) * Math.pow(10, n));
 			
